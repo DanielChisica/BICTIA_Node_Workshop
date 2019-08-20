@@ -4,16 +4,33 @@
     <meta charset="UTF-8">
     <title>BICTIA Fullstack students</title>
 </head>
-<body>
+<body style="background:url('https://www.colture.co/wp-content/uploads/2018/09/Reasons-to-Visit-Bogot%C3%A1.jpg')">
+<div style="margin: 10px 40% 10px 40%; border: solid 4px black; width: 200px ; height: 90.63px">
+    <img src="http://probogota.org/wp-content/uploads/2018/03/bictia.jpg" width="200px"></div>
 <nav>
     <ul>
-        <li><a href="/">Home</a></li>
-        <li><a href="/cristian">Cristian</a></li>
-        <li><a href="/joseD">Jose Daniel</a></li>
-        <li><a href="/nat">Nat</a></li>
-        <li><a href="/joseL">Jose Luis</a></li>
+        <div class="navbarButton"><a href="/" class="link">Home</a></div>
+        <div class="navbarButton"><a href="/cristian" class="link">Cristian</a></div>
+        <div class="navbarButton"><a href="/joseD" class="link">Jose Daniel</a></div>
+        <div class="navbarButton"><a href="/nat" class="link">Nat</a></div>
+        <div class="navbarButton"><div class="link">Jose Luis</div></div>
     </ul>
 </nav>
-<h1>People</h1>
+<style>
+    .navbarButton{
+        border: solid 1px black;
+        width: 100px;
+        height: 25px;
+        text-align: center;
+        display: table
+    }
+
+    .link{
+        text-decoration: none;
+        color: black;
+        display: table-cell;
+        vertical-align: center;
+    }
+</style>
 </body>
 </html>
